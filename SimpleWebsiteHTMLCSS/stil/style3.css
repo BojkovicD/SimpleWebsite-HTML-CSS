@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-style: italic;
+}
+body{
+background-image: url('../images/cigla.jpg');
+background-size: cover;
+
+}
+nav{
+    background:black;
+    height: 80px;
+    width: 100%;
+
+}
+
+label.logo{
+color: white;
+font-size: 20px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+nav ul{
+float: right;
+margin-right: 20px;
+}
+    nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+
+
+
+    }
+    nav ul li a{
+
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 3px;
+    }
+
+a.active,a:hover{
+
+background: orange;
+transition: 0.3s;
+
+}
+.pre-header{
+    background-image: url('../images/ubice.jpg');
+    background-size: cover;
+    background-position-y: -2cm;
+    height: 300px;
+    width: 100%;
+    margin-top: 3cm;
+    padding-top: 0.2cm;
+}
+.pre-header b{
+    color: white;
+    font-size: 40px;
+}
+.pre-header li{
+    color: white;
+    margin-top: 20px;
+    margin-left: 3cm;
+}
+.pre-header a{
+    color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+.second-header{
+    background-image: url('../images/juzni-vetar.jpg');
+    background-size: cover;
+    background-position-y: -6cm;
+    height: 300px;
+    width: 100%;
+    margin-top: 3cm;
+    padding-top: 0.2cm;
+}
+.second-header b{
+    color: white;
+    font-size: 40px;
+}
+.second-header li{
+    color: white;
+    margin-top: 20px;
+    margin-left: 3cm;
+}
+.second-header a{
+    color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+.third-header{
+    background-image: url('../images/besa.jpg');
+    background-size: cover;
+    background-position-y: -7cm;
+    height: 300px;
+    width: 100%;
+    margin-top: 3cm;
+    padding-top: 0.2cm;
+    margin-bottom: 3cm;
+}
+.third-header b{
+    color: white;
+font-size: 40px;
+}
+.third-header li{
+    color: white;
+    margin-top: 20px;
+    margin-left: 3cm;
+}
+.third-header a{
+    color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 7px 13px;
+
+}
